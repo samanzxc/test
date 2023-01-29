@@ -1,0 +1,190 @@
+* {
+  list-style: none;
+}
+
+.fon{
+  height: 60%;
+  width: 105%;
+  position: absolute;
+  z-index: 1;
+  right: -0.1px;
+  top: 25em;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+  }
+  
+  .menu a:hover {
+    color: #f00;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 19px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left, .footer-right {
+    width: 40%;
+  }
+  
+  .footer-left h3, .footer-right h3 {
+    margin-bottom: -35px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 8px;
+    background-color: #000;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    top: 60em;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    background-color: rgb(161, 5, 5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .buttonm {
+    background-color: rgb(15, 133, 5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .buttong {
+    background-color: rgb(161, 5, 5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .buttonk {
+    background-color: rgb(15, 133, 5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .buttond {
+    background-color: rgb(161, 5, 5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  html, body {
+    height: 100%;
+  }
+  
+  footer {
+    position: absolute;
+    top: 350%;
+    width: 97%;
+    /* Other styles for the footer go here */
+  }
+  .icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 63em;
+    top: 26px;
+  }
+  .info {
+    text-align: center;
+    position: absolute;
+    top: 17em;
+    left: 24%;
+    box-shadow: 0px 0px 10px #ccc;
+    border: rgb(56, 56, 56) solid 1px;
+  }
+  .info h1 {
+    margin: 30px;
+  }
+  .cards {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    left: 23.8em;
+    top: 2em;
+    border: gold solid 1px;
+  }
+  
+  .cards img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .king {
+    position: relative;
+    left: 43.5em;
+    top: 59em;
+    transform: rotate(180deg);
+  }
+        
